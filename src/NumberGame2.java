@@ -20,7 +20,8 @@ public class NumberGame2 {
                 hasWon = true;
                 break;
             }
-        }
+        }   //use boolean type variable as a messager to sent the value of the judge condition is batter way to code,
+            //it make the whole process easier to read and make the code look like module
         if(hasWon){
             System.out.println("Your guess is CORRECT! You won the game!");
         }
